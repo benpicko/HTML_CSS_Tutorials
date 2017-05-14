@@ -2,6 +2,12 @@
 <html>
   <head>
     <title>MY FIRST WEB PAGE</title>
+    <style>
+      p {
+        color: black;
+      }
+    </style> <!-- preferable to inline, but external is preferable to both -->
+    <link href="styles/style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
     <h1>What is this?</h1>
@@ -23,6 +29,28 @@
       </ol>
     </ul>
     <h2>Where did you learn?</h2>
-    <p><a href="https://www.htmldog.com">On this here website.</a></p>
+    <p style="color: red"><a href="https://www.htmldog.com">On this here website.</a></p> <!-- avoid inline where possible -->
+    <table border="2">
+      <tr>
+        <td>Row 1, cell 1</td>
+        <td>Row 1, cell 2</td>
+        <td>Row 1, cell 3</td>
+      </tr>
+      <tr>
+        <td>Row 2, cell 1</td>
+        <td>Row 2, cell 2</td>
+        <td>Row 2, cell 3</td>
+      </tr>
+      <tr>
+        <td>Row 3, cell 1</td>
+        <td>Row 3, cell 2</td>
+        <td>Row 3, cell 3</td>
+      </tr>
+      <tr>
+        <td>Row 4, cell 1</td>
+        <td>Row 4, cell 2</td>
+        <td>Row 4, cell 3</td>
+      </tr>
+    </table>
   </body>
 </html>
